@@ -1,0 +1,13 @@
+.container {
+  margin-top: 4rem;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
