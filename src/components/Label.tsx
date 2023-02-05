@@ -4,7 +4,7 @@ import styles from "./Label.module.scss";
 interface LabelProps {
   title: string;
   variant: "blue" | "purple";
-  amount: string;
+  amount: string | number;
 }
 
 export function Label({ title, variant, amount }: LabelProps) {
